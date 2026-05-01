@@ -1,126 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio web Software IK Developers</title>
-    <link rel="stylesheet" href="estilos.css">
+    <title>IK Developers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
 
     <div class="contenedor-principal">
-        <!--Caja ik developers*/-->
-        <header>
-
+        <header class="topbar">
+            <div class="logo">Ik developers</div>
+            <nav class="nav-links">
+                <a href="#about">About us</a>
+                <a href="#services">Services</a>
+                <a href="#case-studies">Case Studies</a>
+                <a href="#blog">Blog</a>
+                <a href="#how">How it Works</a>
+                <a href="#hire">Hire</a>
+            </nav>
+            <button class="btn btn-contact" type="button">Contact us</button>
         </header>
 
-        <main class="fuente-general">
-            <!--CajaGreat products-->
-            <div>
-                <p>hola1</p>
-            </div>
-
-            <!--Caja WhyCostumers-->
-            <div>
-                <p>hola2</p>
-            </div>
-
-            <!--Caja Our desing-->
-            <div>
-                <p>hola3</p>
-            </div>
-
-            <!--Caja features-->
-            <div>
-                <div class=" tamanio-titulo contenido-centrado separacion-vertical-m">Featured</div>
-                <div class="tamanio-titulo fuente-negrilla contenido-centrado separacion-vertical-m">Resources</div>
-
-                <div class="caja-general ">
-                    <div class="caja contenido-centrado">
-                        <div class="separacion-vertical-l">
-                            <img class="imagen-features borde-circular" src="https://picsum.photos/id/160/200/300"
-                                alt="Scalable_App">
-                        </div>
-                        <div >
-                            <p class="p-left">How to build a scalable application up to 1 million users on asw</p>
-                        </div>
-                        <div class="btn-read-more p-s">
-                            <p>Read More -></p>
-                        </div>
-                    </div>
-
-
-                    <div class="caja contenido-centrado">
-                        <div class="separacion-vertical-l">
-                            <img class="imagen-features borde-circular" src="https://picsum.photos/id/227/200/300"
-                                alt="Scalable_App">
-                        </div>
-                        <div >
-                            <p class="p-left">How to build a scalable application up to 1 million users on asw</p>
-                        </div>
-                        <div class="btn-read-more p-s">
-                            <p>Read More -></p>
-                        </div>
-                    </div>
-
-
-                    <div class="caja contenido-centrado">
-                        <div class="separacion-vertical-l">
-                            <img class="imagen-features borde-circular" src="https://picsum.photos/id/232/200/300"
-                                alt="Scalable_App">
-                        </div>
-                        <div >
-                            <p class="p-left">How to build a scalable application up to 1 million users on asw</p>
-                        </div>
-                        <div class="btn-read-more p-s">
-                            <p>Read More -></p>
-                        </div>
-                    </div>
-
-
-                    <div class="caja contenido-centrado">
-                        <div class="separacion-vertical-l">
-                            <img class="imagen-features borde-circular" src="https://picsum.photos/id/274/200/300"
-                                alt="Scalable_App">
-                        </div>
-                        <div >
-                            <p class="p-left">How to build a scalable application up to 1 million users on asw</p>
-                        </div>
-                        <div class="btn-read-more p-s">
-                            <p>Read More -></p>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
-
-                <!--Caja footer-->
-                <div>
-                    <p>hola 5</p>
-                </div>
-
+        <main class="fuente-general hero">
+            <section class="hero-copy">
+                <h1>
+                    Great <span class="text-accent">Product</span> is<br>
+                    <span class="text-strong">built by great</span> <span class="text-accent">teams</span>
+                </h1>
+                <p>
+                    We help build and manage a team of world-class developers
+                    to bring your vision to life.
+                </p>
+                <button class="btn btn-primary" type="button">Let's get started!</button>
+            </section>
+            <section class="hero-visual">
+                <img src="https://picsum.photos/id/1011/620/440" alt="Team collaboration">
+            </section>
         </main>
 
+        <section class="testimonials" id="about">
+            <div class="section-title">
+                <h2>Why cutomers love<br><span>working with us</span></h2>
+                <p>
+                    Without any doubt I recommend Alcaline Solutions as one of
+                    the best web design and digital marketing agencies. One of
+                    the best agencies I've came across so far. Wouldn't be
+                    hesitated to introduce their work to someone else.
+                </p>
+            </div>
+            <button class="arrow arrow-left" type="button" aria-label="Previous">
+                <span aria-hidden="true">&#8592;</span>
+            </button>
+            <button class="arrow arrow-right" type="button" aria-label="Next">
+                <span aria-hidden="true">&#8594;</span>
+            </button>
+            <div class="testimonial-row">
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/id/1005/120/120" alt="Romeena">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="name">Romeena De Silva</div>
+                    <div class="role">Janet Cosmetics</div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/id/1001/120/120" alt="Romeena">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="name">Romeena De Silva</div>
+                    <div class="role">Janet Cosmetics</div>
+                </div>
+                <div class="testimonial-card featured">
+                    <img src="https://picsum.photos/id/1012/140/140" alt="Imran">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="name">Imran Khan</div>
+                    <div class="role">Software Engineer</div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/id/1015/120/120" alt="Romeena">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="name">Romeena De Silva</div>
+                    <div class="role">Janet Cosmetics</div>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://picsum.photos/id/1027/120/120" alt="Romeena">
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="name">Romeena De Silva</div>
+                    <div class="role">Janet Cosmetics</div>
+                </div>
+            </div>
+        </section>
     </div>
 
 
 
 </body>
-
-=======
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
->>>>>>> main
 </html>
