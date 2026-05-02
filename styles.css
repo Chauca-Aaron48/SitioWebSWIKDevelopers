@@ -370,3 +370,61 @@ footer {
         justify-content: center;
     }
 }
+/* Disesño Our desing*/
+.tipografia {
+    font-family: 'Inter', sans-serif;
+}
+
+.titulo-texto {
+    font-size: 48px;
+    color:#1b1f2a;
+    text-align: center;
+    padding: 70px 0px 75px 0px;
+}
+
+.titulo-texto-negrita {
+    display: block;
+    font-weight: bold;
+}
+
+.color-Background {
+    background: #F5F5F8FF;
+}
+
+.imagen-iconos {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tabla-design {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 30px;
+    padding: 0px 120px 40px 120px; ;
+}
+
+td {
+    background: var(--surface);
+    border: solid 1px rgb(215, 215, 241);
+    padding: 80px 52px;
+}
+
+.inline {
+    display: flex;
+    align-items: start;
+    gap: 35px;
+}
+
+.texto-titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}
+
+.texto-card {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 18px;
+}
