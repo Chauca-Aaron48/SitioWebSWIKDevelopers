@@ -252,16 +252,13 @@ main {
 
 /* FOOTER */
 footer {
-    background: #F7F6FB;
     text-align: left;
     padding: 0;
     max-width: 100%;
     margin-top: auto;
     flex-direction: row;
     border-top: #CBD5E0 2px solid;
-
-    border-color: #e90074;
-    border-style: double;
+    background: #F7F6FB;
 }
 
 .footer-container {
@@ -271,7 +268,6 @@ footer {
     margin: 0 auto;
     padding: 20px 10px 10px 200px;
     max-width: 1000px;
-
 }
 
 .footer-column {
@@ -332,7 +328,7 @@ footer {
 
 .footer-copyright {
     margin-top: 20px;
-    color: #FEFFFE;
+    background: #FEFFFE;
     font-size: 18px;
     border-top: #CBD5E0 2px solid;
     text-align: center;
