@@ -6,18 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IK Developers</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
-
 </head>
 
 <body>
-
-    <div class="contenedor-principal">
-        <header class="topbar">
+    <header>
+        <div class="header-container">
             <div class="logo">Ik developers</div>
             <nav class="nav-links">
                 <a href="#about">About us</a>
@@ -27,86 +20,73 @@
                 <a href="#how">How it Works</a>
                 <a href="#hire">Hire</a>
             </nav>
-            <button class="btn btn-contact" type="button">Contact us</button>
-        </header>
+            <button class="btn-contact">Contact us</button>
+        </div>
+    </header>
 
-        <main class="fuente-general hero">
-            <section class="hero-copy">
-                <h1>
-                    Great <span class="text-accent">Product</span> is<br>
-                    <span class="text-strong">built by great</span> <span class="text-accent">teams</span>
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <h1>Great <span class="accent">Product</span> is<br>
+                    <span class="bold">built by great</span> <span class="accent">teams</span>
                 </h1>
-                <p>
-                    We help build and manage a team of world-class developers
-                    to bring your vision to life.
-                </p>
-                <button class="btn btn-primary" type="button">Let's get started!</button>
-            </section>
-            <section class="hero-visual">
-                <img src="https://picsum.photos/id/1011/620/440" alt="Team collaboration">
-            </section>
-        </main>
+                <p>We help build and manage a team of world-class developers to bring your vision to life.</p>
+                <button class="btn-primary">Let's get started!</button>
+            </div>
+            <div class="hero-right">
+                <img src="https://picsum.photos/id/1011/500/400" alt="Team collaboration">
+            </div>
+        </section>
 
         <section class="testimonials" id="about">
-            <div class="section-title">
-                <h2>Why cutomers love<br><span>working with us</span></h2>
-                <p>
-                    Without any doubt I recommend Alcaline Solutions as one of
-                    the best web design and digital marketing agencies. One of
-                    the best agencies I've came across so far. Wouldn't be
-                    hesitated to introduce their work to someone else.
-                </p>
-            </div>
-            <button class="arrow arrow-left" type="button" aria-label="Previous">
-                <span aria-hidden="true">&#8592;</span>
-            </button>
-            <button class="arrow arrow-right" type="button" aria-label="Next">
-                <span aria-hidden="true">&#8594;</span>
-            </button>
-            <div class="testimonial-row">
+            <h2>Why customers love working with us</h2>
+            <p>Without any doubt I recommend this as one of the best web design agencies. One of the best I've seen.
+                Wouldn't hesitate to introduce their work to someone else.</p>
+
+            <div class="testimonials-container">
                 <div class="testimonial-card">
-                    <img src="https://picsum.photos/id/1005/120/120" alt="Romeena">
-                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <div class="name">Romeena De Silva</div>
-                    <div class="role">Janet Cosmetics</div>
+                    <img src="https://picsum.photos/id/1005/100/100" alt="Romeena">
+                    <div class="stars">★★★★★</div>
+                    <h4>Romeena De Silva</h4>
+                    <p class="role">Janet Cosmetics</p>
                 </div>
                 <div class="testimonial-card">
-                    <img src="https://picsum.photos/id/1001/120/120" alt="Romeena">
-                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <div class="name">Romeena De Silva</div>
-                    <div class="role">Janet Cosmetics</div>
+                    <img src="https://picsum.photos/id/1001/100/100" alt="Person">
+                    <div class="stars">★★★★★</div>
+                    <h4>John Smith</h4>
+                    <p class="role">Tech Company</p>
                 </div>
                 <div class="testimonial-card featured">
-                    <img src="https://picsum.photos/id/1012/140/140" alt="Imran">
-                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <div class="name">Imran Khan</div>
-                    <div class="role">Software Engineer</div>
+                    <img src="https://picsum.photos/id/1012/120/120" alt="Imran">
+                    <div class="stars">★★★★★</div>
+                    <h4>Imran Khan</h4>
+                    <p class="role">Software Engineer</p>
                 </div>
                 <div class="testimonial-card">
-                    <img src="https://picsum.photos/id/1015/120/120" alt="Romeena">
-                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <div class="name">Romeena De Silva</div>
-                    <div class="role">Janet Cosmetics</div>
+                    <img src="https://picsum.photos/id/1015/100/100" alt="Person">
+                    <div class="stars">★★★★★</div>
+                    <h4>Maria Garcia</h4>
+                    <p class="role">Startup Founder</p>
                 </div>
                 <div class="testimonial-card">
-                    <img src="https://picsum.photos/id/1027/120/120" alt="Romeena">
-                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-                    <div class="name">Romeena De Silva</div>
-                    <div class="role">Janet Cosmetics</div>
+                    <img src="https://picsum.photos/id/1027/100/100" alt="Person">
+                    <div class="stars">★★★★★</div>
+                    <h4>Carlos Lopez</h4>
+                    <p class="role">Digital Agency</p>
                 </div>
             </div>
         </section>
 
-        <!-- Seccion Our design -->
         <section class="color-Background tipografia">
-            <p class="p-xl t-center titulo-texto"> Our design and
+            <p class="titulo-texto"> Our design and
                 <span class="titulo-texto-negrita">development approach</span>
             </p>
             <table class="tabla-design">
                 <tr>
                     <td>
                         <div class="inline">
-                            <img class="imagen-iconos" style="background: linear-gradient(50deg,#28272EFF,#28272EFF); transform: rotate(270deg);" 
+                            <img class="imagen-iconos"
+                                style="background: linear-gradient(50deg,#28272EFF,#28272EFF); transform: rotate(270deg);"
                                 src="https://img.icons8.com/external-kmg-design-outline-color-kmg-design
                                 /32/external-rocket-seo-and-marketing-kmg-design-outline-color-kmg-design.png"
                                 alt="rocket" />
@@ -198,8 +178,12 @@
             </table>
         </section>
 
-    </div>
 
+    </main>
+
+    <footer>
+        <p>&copy; 2024 IK Developers. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
