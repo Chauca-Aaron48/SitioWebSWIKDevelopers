@@ -425,6 +425,10 @@ footer {
     background: #F5F5F8FF;
 }
 
+.color-Background-white{
+    background: #FEFFFE;
+}
+
 .imagen-iconos {
     width: 70px;
     height: 70px;
@@ -462,4 +466,55 @@ td {
     margin-top: 10px;
     width: 100%;
     font-size: 18px;
+}
+
+.tabla-featured{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+
+.tx-al-cen {
+    text-align: center;
+    border: solid 1px rgb(34, 34, 163);
+}
+.tx-al-ri{
+    text-align: right;
+}
+
+.imagen-featured{
+    height: 175px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.tx-negrita-black{
+    color: #2d3748;
+    font-weight: 500;
+}
+
+.sz-box-s{
+    width: 260px;
+}
+
+.tx-color-purple {
+    color: #6b21a8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.m-top{
+    margin-top: 20px;
+}
+
+.card-texto-ajuste{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 12px;
+}
+
+.alter-padding{
+    padding: 15px 0px 60px 0px;
 }
