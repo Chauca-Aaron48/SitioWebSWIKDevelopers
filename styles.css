@@ -253,20 +253,24 @@ main {
 /* FOOTER */
 footer {
     background: #F7F6FB;
-    text-align: center;
+    text-align: left;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
     margin-top: auto;
     flex-direction: row;
+    border-top: #CBD5E0 2px solid;
+
+    border-color: #e90074;
+    border-style: double;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
     margin: 0 auto;
-    padding: 0 20px;
-    max-width: 1200px;
-    border-top: #CBD5E0 2px solid;
+    padding: 20px 10px 10px 200px;
+    max-width: 1000px;
 
 }
 
@@ -303,12 +307,35 @@ footer {
     margin: 10px;
 }
 
+.imagenes-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 300px;
+    position: relative;
+    left: -150px;
+
+}
+
+.imagenes-footer button {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .footer-copyright {
     margin-top: 20px;
     color: #FEFFFE;
     font-size: 18px;
     border-top: #CBD5E0 2px solid;
+    text-align: center;
 }
 
 /* RESPONSIVE */
@@ -369,7 +396,14 @@ footer {
         width: 100%;
         justify-content: center;
     }
+
+    .imagenes-footer {
+        position: static;
+        left: 0;
+        justify-content: center;
+    }
 }
+
 /* Disesño Our desing*/
 .tipografia {
     font-family: 'Inter', sans-serif;
@@ -377,7 +411,7 @@ footer {
 
 .titulo-texto {
     font-size: 48px;
-    color:#1b1f2a;
+    color: #1b1f2a;
     text-align: center;
     padding: 70px 0px 75px 0px;
 }
@@ -403,7 +437,8 @@ footer {
     table-layout: fixed;
     border-collapse: separate;
     border-spacing: 30px;
-    padding: 0px 120px 40px 120px; ;
+    padding: 0px 120px 40px 120px;
+    ;
 }
 
 td {
