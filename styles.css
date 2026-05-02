@@ -22,7 +22,12 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #1b1f2a;
 }
 
@@ -181,7 +186,7 @@ main {
     width: 100%;
 }
 
-.testimonials > p {
+.testimonials>p {
     max-width: 1200px;
     width: 100%;
     margin-bottom: 60px;
@@ -247,16 +252,63 @@ main {
 
 /* FOOTER */
 footer {
-    background: #1b1f2a;
-    color: #ffffff;
+    background: #F7F6FB;
     text-align: center;
-    padding: 40px 20px;
+    padding: 0;
     width: 100%;
     margin-top: auto;
+    flex-direction: row;
 }
 
-footer p {
-    color: #ffffff;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
+    border-top: #CBD5E0 2px solid;
+
+}
+
+.footer-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+.title-footer {
+    color: #4B5468;
+    font-family: "Montserrat" Roboto, Open Sans, Inter;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 22px;
+    padding: 25px 0px 0px 0px;
+}
+
+.text-footer p {
+    color: #718197;
+    font-family: "Montserrat" Roboto, Open Sans, Inter;
+    width: 325px;
+    justify-content: left;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.footer-copyright {
+    margin-top: 20px;
+    color: #FEFFFE;
+    font-size: 18px;
+    border-top: #CBD5E0 2px solid;
 }
 
 /* RESPONSIVE */
@@ -291,5 +343,30 @@ footer p {
 
     .testimonial-card.featured {
         width: 220px;
+    }
+}
+
+@media (max-width: 1250px) {
+    * {
+        font-size: 18px
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+        max-width: none;
+        padding: 0;
+    }
+
+    .text-footer p {
+        width: 100%;
+        justify-content: center;
     }
 }
