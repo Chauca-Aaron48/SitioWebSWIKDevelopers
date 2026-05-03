@@ -440,6 +440,7 @@ footer {
     color: #1b1f2a;
     text-align: center;
     padding: 70px 0px 75px 0px;
+    border-block-start: solid 1px rgb(215, 215, 241);
 }
 
 .titulo-texto-negrita {
@@ -463,18 +464,24 @@ footer {
 }
 
 .tabla-design {
-    width: 100%;
-    table-layout: fixed;
-    border-collapse: separate;
-    border-spacing: 30px;
-    padding: 0px 120px 40px 120px;
-    ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 5px;
+    padding: 0 80px 80px;
+    border-block-end: solid 1px rgb(215, 215, 241);
 }
 
-td {
-    background: var(--surface);
+.flex-item {
+    width: 44%;
+    min-width: 300px;
+    overflow: hidden;
+    word-break: break-word;
     border: solid 1px rgb(215, 215, 241);
-    padding: 80px 52px;
+    padding: 80px 40px;
+    margin-bottom: 25px;
+    background: #FEFFFE;
 }
 
 .inline {
