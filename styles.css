@@ -47,34 +47,37 @@ header {
     border-bottom: 1px solid #e8ebf4;
     padding: 20px 0;
     width: 100%;
+    box-shadow: 0 6px 32px 0 rgba(100, 100, 180, 0.18);
 }
 
 .header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    font-size: 22px;
-    font-weight: bold;
-    color: #1b1f2a;
+    font-size: 30px;
+    font-weight: normal;
+    color: #1b1f2a;    
+    padding: 15px 25px;
+}
+
+.normal-weight {
+    font-weight: normal;
 }
 
 .nav-links {
     display: flex;
-    gap: 40px;
-    flex: 1;
-    justify-content: center;
+    gap: 70px;
 }
 
 .nav-links a {
     color: #6b7390;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .nav-links a:hover {
@@ -82,14 +85,14 @@ header {
 }
 
 .btn-contact {
-    background: linear-gradient(90deg, #e60be6, #9945ff);
+    background: linear-gradient(90deg, #580A85, #635FE0);
     color: #ffffff;
     border: none;
     padding: 12px 28px;
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: normal;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .btn-contact:hover {
@@ -110,7 +113,7 @@ main {
     align-items: center;
     justify-content: center;
     padding: 100px 20px;
-    background: #ffffff;
+    background: linear-gradient(to bottom, #e8eaf2, #ffffff 80px);
     min-height: 600px;
     width: 100%;
     max-width: none;
@@ -123,13 +126,12 @@ main {
 
 .hero-left h1 {
     font-size: 56px;
-    font-weight: bold;
     line-height: 1.2;
     margin-bottom: 24px;
 }
 
 .accent {
-    background: linear-gradient(90deg, #e60be6, #9945ff);
+    background: linear-gradient(90deg, var(--color-start, #9768BA), var(--color-end, #B980BF));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -143,7 +145,7 @@ main {
 .hero-left p {
     font-size: 16px;
     color: #6b7390;
-    margin-bottom: 32px;
+    margin-bottom: 70px;
     line-height: 1.7;
 }
 
@@ -153,7 +155,7 @@ main {
     border: none;
     padding: 12px 24px;
     border-radius: 6px;
-    font-weight: 600;
+    font-weight: normal;
     cursor: pointer;
     font-size: 16px;
 }
@@ -176,7 +178,7 @@ main {
 
 .testimonials {
     padding: 100px 20px;
-    background: #f6f7fb;
+    background: #ffffff;
     width: 100%;
     max-width: none;
     display: flex;
@@ -208,7 +210,7 @@ main {
 }
 
 .testimonial-card {
-    background: #ffffff;
+    background: #f6f7fb;
     padding: 30px;
     border-radius: 12px;
     text-align: center;
@@ -337,72 +339,6 @@ footer {
     font-size: 18px;
     border-top: #CBD5E0 2px solid;
     text-align: center;
-}
-
-/* RESPONSIVE */
-@media (max-width: 768px) {
-    .header-container {
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 15px;
-        justify-content: center;
-    }
-
-    .hero {
-        flex-direction: column;
-        padding: 40px 0;
-    }
-
-    .hero-left h1 {
-        font-size: 36px;
-    }
-
-    .testimonials-container {
-        gap: 15px;
-    }
-
-    .testimonial-card {
-        width: 180px;
-    }
-
-    .testimonial-card.featured {
-        width: 220px;
-    }
-}
-
-@media (max-width: 1250px) {
-    * {
-        font-size: 18px
-    }
-
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 40px;
-        padding: 40px 20px;
-    }
-
-    .footer-column {
-        width: 100%;
-        max-width: none;
-        padding: 0;
-    }
-
-    .text-footer p {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .imagenes-footer {
-        position: static;
-        left: 0;
-        justify-content: center;
-    }
 }
 
 /* Disesño Our desing*/
